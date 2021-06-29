@@ -20,11 +20,11 @@
 
     <div class="form-group">
       <label for="exampleInputEmail1" class="font-weight-bold">Kategori Barang</label>
-      <input type="text" name="kategori_barang" class="form-control" value="{{$buku->no_surat}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan No Surat">
+      <input type="text" name="kategori_barang" class="form-control" value="{{$buku->no_surat}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan Kategori Barang">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1" class="font-weight-bold">Nama Barang</label>
-      <input type="text" name="nama_barang" class="form-control" value="{{$buku->tanggal_surat}}" id="exampleInputPassword1" placeholder="Masukkan Nama Barang">
+      <input type="text" name="nama_barang" class="form-control" value="{{$buku->tanggal_surat}}" id="exampleInputPassword1" placeholder="Masukan Nama Barang">
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1" class="font-weight-bold">Jumlah Stok</label>
